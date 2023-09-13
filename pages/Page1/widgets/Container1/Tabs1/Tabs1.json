@@ -1,13 +1,13 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "mobileBottomRow": 17,
     "widgetName": "Tabs1",
-    "borderColor": "#E0DEDE",
+    "borderColor": "transparent",
     "isCanvas": true,
     "displayName": "Tabs",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
-    "topRow": 11,
-    "bottomRow": 26,
+    "topRow": 9,
+    "bottomRow": 55,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -20,7 +20,6 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "defaultTab"}
     ],
     "children": [
@@ -29,7 +28,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 440,
+            "bottomRow": 460,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -65,7 +64,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 110,
+            "bottomRow": 460,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -106,7 +105,7 @@
     "widgetId": "f79rgmu9ub",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "defaultTab": "{{data.activeTodo === undefined?'view':'edit'}}",
-    "shouldShowTabs": true,
+    "shouldShowTabs": false,
     "minWidth": 450,
     "tabsObj": {
         "tab1": {
@@ -134,10 +133,10 @@
     "isLoading": false,
     "mobileTopRow": 2,
     "responsiveBehavior": "fill",
-    "originalTopRow": 11,
+    "originalTopRow": 9,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 26,
+    "originalBottomRow": 55,
     "minDynamicHeight": 15
 }
