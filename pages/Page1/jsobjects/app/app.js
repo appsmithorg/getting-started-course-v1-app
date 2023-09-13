@@ -12,4 +12,8 @@ export default {
 		data.todos.splice(id, 1);
 		storeValue('todos', data.todos);
 	},
+	editTodo (id, title) {
+		data.activeTodo = undefined;
+		this.updateTodo(id, {title});
+	},
 }

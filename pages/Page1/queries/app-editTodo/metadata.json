@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "deleteTodo",
-    "fullyQualifiedName": "app.deleteTodo",
+    "name": "editTodo",
+    "fullyQualifiedName": "app.editTodo",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,13 +16,16 @@
     "pageId": "Page1",
     "collectionId": "Page1_app",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
           "name": "id"
+        },
+        {
+          "name": "title"
         }
       ]
     },
@@ -40,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_app.deleteTodo",
+  "id": "Page1_app.editTodo",
   "deleted": false,
-  "gitSyncId": "65016f6ff1ebd5644ad997a7_650173c421b587125d21c449"
+  "gitSyncId": "65016f6ff1ebd5644ad997a7_6501752121b587125d21c463"
 }

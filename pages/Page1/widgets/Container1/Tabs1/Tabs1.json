@@ -7,7 +7,7 @@
     "displayName": "Tabs",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
     "topRow": 11,
-    "bottomRow": 61,
+    "bottomRow": 26,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -15,11 +15,13 @@
     "mobileRightColumn": 25,
     "animateLoading": true,
     "parentColumnSpace": 6.42431640625,
+    "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "defaultTab"}
     ],
     "children": [
         {
@@ -27,7 +29,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 460,
+            "bottomRow": 440,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -37,12 +39,13 @@
             "minHeight": 150,
             "mobileRightColumn": 154.18359375,
             "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [],
             "isDisabled": false,
             "key": "kg9l7bbjyw",
             "isDeprecated": false,
-            "tabName": "Tab 1",
+            "tabName": "view",
             "rightColumn": 154.18359375,
             "detachFromLayout": true,
             "widgetId": "7ehlstw718",
@@ -62,7 +65,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 460,
+            "bottomRow": 110,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -72,12 +75,13 @@
             "minHeight": 150,
             "mobileRightColumn": 154.18359375,
             "parentColumnSpace": 1,
+            "dynamicTriggerPathList": [],
             "leftColumn": 0,
             "dynamicBindingPathList": [],
             "isDisabled": false,
             "key": "kg9l7bbjyw",
             "isDeprecated": false,
-            "tabName": "Tab 2",
+            "tabName": "edit",
             "rightColumn": 154.18359375,
             "detachFromLayout": true,
             "widgetId": "yv17s5on03",
@@ -101,7 +105,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "f79rgmu9ub",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "defaultTab": "Tab 1",
+    "defaultTab": "{{data.activeTodo === undefined?'view':'edit'}}",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {
@@ -109,7 +113,7 @@
             "widgetId": "7ehlstw718",
             "positioning": "vertical",
             "index": 0,
-            "label": "Tab 1",
+            "label": "view",
             "id": "tab1",
             "isVisible": true
         },
@@ -117,7 +121,7 @@
             "widgetId": "yv17s5on03",
             "positioning": "vertical",
             "index": 1,
-            "label": "Tab 2",
+            "label": "edit",
             "id": "tab2",
             "isVisible": true
         }
@@ -134,6 +138,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 61,
+    "originalBottomRow": 26,
     "minDynamicHeight": 15
 }
