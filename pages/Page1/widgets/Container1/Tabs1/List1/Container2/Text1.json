@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Text1",
+    "dynamicPropertyPathList": [{"key": "textColor"}],
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -23,7 +24,8 @@
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "text"},
+        {"key": "textColor"}
     ],
     "leftColumn": 0,
     "shouldTruncate": false,
@@ -38,7 +40,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
-    "textColor": "#231F20",
+    "textColor": "{{currentItem.completed?'#aaa; text-decoration: line-through;':'#231F20; text-decoration: none;'}}",
     "version": 1,
     "parentId": "e9zsurfag8",
     "tags": [

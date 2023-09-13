@@ -77,7 +77,10 @@
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
     "listData": "{{data.todos}}",
-    "dynamicPropertyPathList": [{"key": "primaryKeys"}],
+    "dynamicPropertyPathList": [
+        {"key": "primaryKeys"},
+        {"key": "onItemClick"}
+    ],
     "displayName": "List",
     "bottomRow": 44,
     "parentRowSpace": 10,
@@ -87,7 +90,7 @@
     "mainContainerId": "eyvfzb9e62",
     "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) =>String(currentIndex))}}",
     "parentColumnSpace": 2.09661865234375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onItemClick"}],
     "gridType": "vertical",
     "key": "tuds3xsoko",
     "backgroundColor": "transparent",
@@ -95,6 +98,7 @@
     "rightColumn": 64,
     "widgetId": "oys38mpanj",
     "minWidth": 450,
+    "onItemClick": "{{app.updateTodo(currentIndex, {completed: !currentItem.completed})}}",
     "parentId": "7ehlstw718",
     "renderMode": "CANVAS",
     "mobileTopRow": 4,
