@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#F3F1C7",
+  "icon": "chat",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "publishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
