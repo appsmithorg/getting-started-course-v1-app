@@ -16,7 +16,7 @@
     "pageId": "Page1",
     "collectionId": "Page1_app",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],

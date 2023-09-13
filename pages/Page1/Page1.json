@@ -35,7 +35,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "function () {\n  data.todos = data.dummyTodos;\n}"
+                "function () {\n  data.todos = appsmith.store.todos || data.dummyTodos;\n}"
               ],
               "timeoutInMillisecond": 10000
             }
