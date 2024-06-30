@@ -3,7 +3,7 @@
     "mobileBottomRow": 6,
     "widgetName": "IconButton3",
     "onClick": "{{app.editTodo(data.activeTodo, Input2.text);}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#ca520f",
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
@@ -20,10 +20,7 @@
     "parentColumnSpace": 5.90625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 57,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,
     "key": "v5ojlh1gx8",
     "isDeprecated": false,

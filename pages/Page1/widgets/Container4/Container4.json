@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 10,
     "widgetName": "Container4",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#ca520f",
     "isCanvas": true,
     "dynamicPropertyPathList": [{"key": "backgroundColor"}],
     "displayName": "Container",

@@ -18,11 +18,10 @@
     "animateLoading": true,
     "overflow": "NONE",
     "dynamicTriggerPathList": [],
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "fontFamily": "Montserrat",
     "dynamicBindingPathList": [
         {"key": "text"},
         {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
         {"key": "borderRadius"},
         {"key": "text"},
         {"key": "textColor"}
