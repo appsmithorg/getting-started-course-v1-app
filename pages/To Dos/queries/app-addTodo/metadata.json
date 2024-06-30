@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "deleteTodo",
-    "fullyQualifiedName": "app.deleteTodo",
+    "name": "addTodo",
+    "fullyQualifiedName": "app.addTodo",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_app",
+    "pageId": "To Dos",
+    "collectionId": "To Dos_app",
     "actionConfiguration": {
       "timeoutInMillisecond": 0,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
-          "name": "id"
+          "name": "title"
         }
       ]
     },
@@ -41,7 +41,7 @@
     "userPermissions": [],
     "createdAt": "2024-06-30T15:09:46Z"
   },
-  "id": "Page1_app.deleteTodo",
+  "id": "To Dos_app.addTodo",
   "deleted": false,
-  "gitSyncId": "6681753616800a6b9ffe1794_93bf8ae9-4f76-4177-a15b-35b9985180f7"
+  "gitSyncId": "6681753616800a6b9ffe1794_787317ad-a63d-4c50-9ae9-bd40da737fd9"
 }

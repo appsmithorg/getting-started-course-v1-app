@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "data",
-    "pageId": "Page1",
+    "pageId": "To Dos",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -22,7 +22,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Page1_data",
+  "id": "To Dos_data",
   "deleted": false,
   "gitSyncId": "65016f6ff1ebd5644ad997a7_65016febc22f263c03232e42"
 }

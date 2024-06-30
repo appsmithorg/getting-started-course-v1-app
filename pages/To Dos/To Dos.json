@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "To Dos",
+    "slug": "to-dos",
     "layouts": [
       {
         "viewMode": false,
@@ -29,9 +29,9 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_app.init",
+              "id": "To Dos_app.init",
               "name": "app.init",
-              "collectionId": "Page1_app",
+              "collectionId": "To Dos_app",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
@@ -43,14 +43,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "To Dos",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "65016f6ff1ebd5644ad997a7_65016f6ff1ebd5644ad997a9"

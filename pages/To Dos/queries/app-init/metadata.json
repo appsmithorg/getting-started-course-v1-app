@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "addTodo",
-    "fullyQualifiedName": "app.addTodo",
+    "name": "init",
+    "fullyQualifiedName": "app.init",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,20 +13,16 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_app",
+    "pageId": "To Dos",
+    "collectionId": "To Dos_app",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "title"
-        }
-      ]
+      "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,13 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-30T15:09:46Z"
+    "createdAt": "2024-05-20T19:39:21Z"
   },
-  "id": "Page1_app.addTodo",
+  "id": "To Dos_app.init",
   "deleted": false,
-  "gitSyncId": "6681753616800a6b9ffe1794_787317ad-a63d-4c50-9ae9-bd40da737fd9"
+  "gitSyncId": "65016f6ff1ebd5644ad997a7_65017020c6267e2ef10d4fde"
 }

@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "app",
-    "pageId": "Page1",
+    "pageId": "To Dos",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Page1_app",
+  "id": "To Dos_app",
   "deleted": false,
   "gitSyncId": "65016f6ff1ebd5644ad997a7_65017019f1ebd5644ad997b3"
 }

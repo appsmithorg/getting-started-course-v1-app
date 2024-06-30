@@ -1,7 +1,11 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Upload File",
+      "isDefault": false
+    },
+    {
+      "id": "To Dos",
       "isDefault": true
     }
   ],
