@@ -19,7 +19,7 @@
     "animateLoading": true,
     "parentColumnSpace": 5.78125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 57,
+    "leftColumn": 54,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,7 +27,7 @@
     "isDisabled": false,
     "key": "v5ojlh1gx8",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 58,
     "iconName": "trash",
     "dynamicHeight": "FIXED",
     "widgetId": "oel4gadxcl",

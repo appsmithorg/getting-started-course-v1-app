@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 5.78125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 49,
+    "leftColumn": 50,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,7 +28,7 @@
     "isDisabled": false,
     "key": "v5ojlh1gx8",
     "isDeprecated": false,
-    "rightColumn": 56,
+    "rightColumn": 54,
     "iconName": "edit",
     "dynamicHeight": "FIXED",
     "widgetId": "evkmqimahc",
